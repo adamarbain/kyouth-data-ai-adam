@@ -1,10 +1,10 @@
 import sys
 from pathlib import Path
 
-from ingestor import ingest_all_mhtml
-from processor import process_all_html
-from loader import load_all_jsons
-from profiler import run_data_profile
+from week1.src.ingestor import ingest_all_mhtml
+from week1.src.processor import process_all_html
+from week1.src.loader import load_all_jsons
+from week1.src.profiler import run_data_profile
 
 
 def main():
